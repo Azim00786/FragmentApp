@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/img"
+        android:background="@drawable/gol"
+        android:clipToOutline="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:text="Naushad"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="120dp"
+            android:text="123"
+            android:paddingTop="-30dp"
+
+            />
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="15sp"
+            android:background="#E60B0B"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
